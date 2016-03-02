@@ -30,7 +30,7 @@ minError = sys.maxsize
 best_rolling_days = 0
 
 
-for days in range(10,65, 5):
+for days in range(10,65, 5): # run with different rolling period days to check the best one 
     Y_SP500 = []
     SP500_returns = [SP500_AdjClose[days + x - 1] / SP500_AdjClose[x] - 1 for x \
                      in range(1,len(SP500_AdjClose) - days + 1 )]
