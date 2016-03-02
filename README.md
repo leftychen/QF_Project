@@ -17,7 +17,8 @@ S^P 500 from 2015-1-2 to 2016-1-1 as the data to test the model.
 
 3.Reference 
 
-model and part of code comes from the reference below:
+Model and part of code come from the reference below:
+
 http://www.wildml.com/2015/09/implementing-a-neural-network-from-scratch/
 
 
